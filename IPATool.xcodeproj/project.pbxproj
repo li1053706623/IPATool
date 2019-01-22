@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187C61BC21F589B000EB4BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61BB21F589B000EB4BBD /* AppDelegate.m */; };
+		187C61BF21F589B000EB4BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61BE21F589B000EB4BBD /* ViewController.m */; };
+		187C61C121F589B100EB4BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187C61C021F589B100EB4BBD /* Assets.xcassets */; };
+		187C61C421F589B100EB4BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187C61C221F589B100EB4BBD /* Main.storyboard */; };
+		187C61C721F589B100EB4BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61C621F589B100EB4BBD /* main.m */; };
+		187C61D221F589B100EB4BBD /* IPAToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61D121F589B100EB4BBD /* IPAToolTests.m */; };
+		187C61DD21F589B100EB4BBD /* IPAToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61DC21F589B100EB4BBD /* IPAToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187C61CE21F589B100EB4BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187C61AF21F589B000EB4BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187C61B621F589B000EB4BBD;
+			remoteInfo = IPATool;
+		};
+		187C61D921F589B100EB4BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187C61AF21F589B000EB4BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187C61B621F589B000EB4BBD;
+			remoteInfo = IPATool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187C61B721F589B000EB4BBD /* IPATool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPATool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187C61BA21F589B000EB4BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187C61BB21F589B000EB4BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187C61BD21F589B000EB4BBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187C61BE21F589B000EB4BBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187C61C021F589B100EB4BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187C61C321F589B100EB4BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187C61C521F589B100EB4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187C61C621F589B100EB4BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187C61C821F589B100EB4BBD /* IPATool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IPATool.entitlements; sourceTree = "<group>"; };
+		187C61CD21F589B100EB4BBD /* IPAToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPAToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187C61D121F589B100EB4BBD /* IPAToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAToolTests.m; sourceTree = "<group>"; };
+		187C61D321F589B100EB4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187C61D821F589B100EB4BBD /* IPAToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPAToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187C61DC21F589B100EB4BBD /* IPAToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAToolUITests.m; sourceTree = "<group>"; };
+		187C61DE21F589B100EB4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187C61B421F589B000EB4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61CA21F589B100EB4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61D521F589B100EB4BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187C61AE21F589B000EB4BBD = {
+			isa = PBXGroup;
+			children = (
+				187C61B921F589B000EB4BBD /* IPATool */,
+				187C61D021F589B100EB4BBD /* IPAToolTests */,
+				187C61DB21F589B100EB4BBD /* IPAToolUITests */,
+				187C61B821F589B000EB4BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187C61B821F589B000EB4BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187C61B721F589B000EB4BBD /* IPATool.app */,
+				187C61CD21F589B100EB4BBD /* IPAToolTests.xctest */,
+				187C61D821F589B100EB4BBD /* IPAToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187C61B921F589B000EB4BBD /* IPATool */ = {
+			isa = PBXGroup;
+			children = (
+				187C61BA21F589B000EB4BBD /* AppDelegate.h */,
+				187C61BB21F589B000EB4BBD /* AppDelegate.m */,
+				187C61BD21F589B000EB4BBD /* ViewController.h */,
+				187C61BE21F589B000EB4BBD /* ViewController.m */,
+				187C61C021F589B100EB4BBD /* Assets.xcassets */,
+				187C61C221F589B100EB4BBD /* Main.storyboard */,
+				187C61C521F589B100EB4BBD /* Info.plist */,
+				187C61C621F589B100EB4BBD /* main.m */,
+				187C61C821F589B100EB4BBD /* IPATool.entitlements */,
+			);
+			path = IPATool;
+			sourceTree = "<group>";
+		};
+		187C61D021F589B100EB4BBD /* IPAToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				187C61D121F589B100EB4BBD /* IPAToolTests.m */,
+				187C61D321F589B100EB4BBD /* Info.plist */,
+			);
+			path = IPAToolTests;
+			sourceTree = "<group>";
+		};
+		187C61DB21F589B100EB4BBD /* IPAToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187C61DC21F589B100EB4BBD /* IPAToolUITests.m */,
+				187C61DE21F589B100EB4BBD /* Info.plist */,
+			);
+			path = IPAToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187C61B621F589B000EB4BBD /* IPATool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187C61E121F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPATool" */;
+			buildPhases = (
+				187C61B321F589B000EB4BBD /* Sources */,
+				187C61B421F589B000EB4BBD /* Frameworks */,
+				187C61B521F589B000EB4BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPATool;
+			productName = IPATool;
+			productReference = 187C61B721F589B000EB4BBD /* IPATool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187C61CC21F589B100EB4BBD /* IPAToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187C61E421F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolTests" */;
+			buildPhases = (
+				187C61C921F589B100EB4BBD /* Sources */,
+				187C61CA21F589B100EB4BBD /* Frameworks */,
+				187C61CB21F589B100EB4BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187C61CF21F589B100EB4BBD /* PBXTargetDependency */,
+			);
+			name = IPAToolTests;
+			productName = IPAToolTests;
+			productReference = 187C61CD21F589B100EB4BBD /* IPAToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187C61D721F589B100EB4BBD /* IPAToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187C61E721F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolUITests" */;
+			buildPhases = (
+				187C61D421F589B100EB4BBD /* Sources */,
+				187C61D521F589B100EB4BBD /* Frameworks */,
+				187C61D621F589B100EB4BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187C61DA21F589B100EB4BBD /* PBXTargetDependency */,
+			);
+			name = IPAToolUITests;
+			productName = IPAToolUITests;
+			productReference = 187C61D821F589B100EB4BBD /* IPAToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187C61AF21F589B000EB4BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					187C61B621F589B000EB4BBD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					187C61CC21F589B100EB4BBD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 187C61B621F589B000EB4BBD;
+					};
+					187C61D721F589B100EB4BBD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 187C61B621F589B000EB4BBD;
+					};
+				};
+			};
+			buildConfigurationList = 187C61B221F589B000EB4BBD /* Build configuration list for PBXProject "IPATool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187C61AE21F589B000EB4BBD;
+			productRefGroup = 187C61B821F589B000EB4BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187C61B621F589B000EB4BBD /* IPATool */,
+				187C61CC21F589B100EB4BBD /* IPAToolTests */,
+				187C61D721F589B100EB4BBD /* IPAToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187C61B521F589B000EB4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187C61C121F589B100EB4BBD /* Assets.xcassets in Resources */,
+				187C61C421F589B100EB4BBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61CB21F589B100EB4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61D621F589B100EB4BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187C61B321F589B000EB4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187C61BF21F589B000EB4BBD /* ViewController.m in Sources */,
+				187C61C721F589B100EB4BBD /* main.m in Sources */,
+				187C61BC21F589B000EB4BBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61C921F589B100EB4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187C61D221F589B100EB4BBD /* IPAToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187C61D421F589B100EB4BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187C61DD21F589B100EB4BBD /* IPAToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187C61CF21F589B100EB4BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187C61B621F589B000EB4BBD /* IPATool */;
+			targetProxy = 187C61CE21F589B100EB4BBD /* PBXContainerItemProxy */;
+		};
+		187C61DA21F589B100EB4BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187C61B621F589B000EB4BBD /* IPATool */;
+			targetProxy = 187C61D921F589B100EB4BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187C61C221F589B100EB4BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187C61C321F589B100EB4BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187C61DF21F589B100EB4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		187C61E021F589B100EB4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		187C61E221F589B100EB4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IPATool/IPATool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPATool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPATool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187C61E321F589B100EB4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IPATool/IPATool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPATool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPATool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187C61E521F589B100EB4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPAToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPAToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPATool.app/Contents/MacOS/IPATool";
+			};
+			name = Debug;
+		};
+		187C61E621F589B100EB4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPAToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPAToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPATool.app/Contents/MacOS/IPATool";
+			};
+			name = Release;
+		};
+		187C61E821F589B100EB4BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPAToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPAToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPATool;
+			};
+			name = Debug;
+		};
+		187C61E921F589B100EB4BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U97K8M2954;
+				INFOPLIST_FILE = IPAToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPAToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPATool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187C61B221F589B000EB4BBD /* Build configuration list for PBXProject "IPATool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187C61DF21F589B100EB4BBD /* Debug */,
+				187C61E021F589B100EB4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187C61E121F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPATool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187C61E221F589B100EB4BBD /* Debug */,
+				187C61E321F589B100EB4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187C61E421F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187C61E521F589B100EB4BBD /* Debug */,
+				187C61E621F589B100EB4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187C61E721F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187C61E821F589B100EB4BBD /* Debug */,
+				187C61E921F589B100EB4BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187C61AF21F589B000EB4BBD /* Project object */;
+}
