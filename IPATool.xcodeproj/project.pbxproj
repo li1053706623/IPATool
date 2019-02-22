@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1E3C860805535D6E00D04A /* libPods-IPAToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22FA9EAC5B561D9FBCC852E /* libPods-IPAToolTests.a */; };
+		182699D021F5C9F3008C2B1D /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182699CE21F5C9F3008C2B1D /* HttpManager.m */; };
+		182699D621F6C5E1008C2B1D /* NSButton+QiEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 182699D521F6C5E1008C2B1D /* NSButton+QiEventInterval.m */; };
 		187C61BC21F589B000EB4BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61BB21F589B000EB4BBD /* AppDelegate.m */; };
 		187C61BF21F589B000EB4BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61BE21F589B000EB4BBD /* ViewController.m */; };
 		187C61C121F589B100EB4BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187C61C021F589B100EB4BBD /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 		187C61C721F589B100EB4BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61C621F589B100EB4BBD /* main.m */; };
 		187C61D221F589B100EB4BBD /* IPAToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61D121F589B100EB4BBD /* IPAToolTests.m */; };
 		187C61DD21F589B100EB4BBD /* IPAToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61DC21F589B100EB4BBD /* IPAToolUITests.m */; };
+		187C61EC21F5902800EB4BBD /* IPAFine.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C61EB21F5902800EB4BBD /* IPAFine.m */; };
+		1DCCFEE72EBB7606B6263AC8 /* libPods-IPAToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A92D894AF7CC84BBB8976E /* libPods-IPAToolUITests.a */; };
+		99F90FDE04F4AE8AC27D9978 /* libPods-IPATool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E2C8BE67F7BDDB6D42BFF7 /* libPods-IPATool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182699CE21F5C9F3008C2B1D /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		182699CF21F5C9F3008C2B1D /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		182699D421F6C5E1008C2B1D /* NSButton+QiEventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSButton+QiEventInterval.h"; sourceTree = "<group>"; };
+		182699D521F6C5E1008C2B1D /* NSButton+QiEventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSButton+QiEventInterval.m"; sourceTree = "<group>"; };
 		187C61B721F589B000EB4BBD /* IPATool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPATool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C61BA21F589B000EB4BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		187C61BB21F589B000EB4BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +60,17 @@
 		187C61D821F589B100EB4BBD /* IPAToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPAToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C61DC21F589B100EB4BBD /* IPAToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAToolUITests.m; sourceTree = "<group>"; };
 		187C61DE21F589B100EB4BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187C61EA21F5902800EB4BBD /* IPAFine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAFine.h; sourceTree = "<group>"; };
+		187C61EB21F5902800EB4BBD /* IPAFine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAFine.m; sourceTree = "<group>"; };
+		23AB7D8D1AC14A06D91B03F0 /* Pods-IPATool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPATool.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPATool/Pods-IPATool.release.xcconfig"; sourceTree = "<group>"; };
+		31E2C8BE67F7BDDB6D42BFF7 /* libPods-IPATool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPATool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7952CAC449776808952635 /* Pods-IPAToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPAToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPAToolTests/Pods-IPAToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		8836BE6BEDF8BEA2A5F084FC /* Pods-IPAToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPAToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPAToolTests/Pods-IPAToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B45022F763DF128DC2ACC396 /* Pods-IPAToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPAToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPAToolUITests/Pods-IPAToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA1ABC64C87826E4449950A1 /* Pods-IPAToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPAToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPAToolUITests/Pods-IPAToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0BF2369C1C6E3196ABBBDB2 /* Pods-IPATool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPATool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPATool/Pods-IPATool.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A92D894AF7CC84BBB8976E /* libPods-IPAToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPAToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FA9EAC5B561D9FBCC852E /* libPods-IPAToolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPAToolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F90FDE04F4AE8AC27D9978 /* libPods-IPATool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1E3C860805535D6E00D04A /* libPods-IPAToolTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCCFEE72EBB7606B6263AC8 /* libPods-IPAToolUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +108,8 @@
 				187C61D021F589B100EB4BBD /* IPAToolTests */,
 				187C61DB21F589B100EB4BBD /* IPAToolUITests */,
 				187C61B821F589B000EB4BBD /* Products */,
+				B58B03B0DA2151792D2DE235 /* Pods */,
+				D03C34C46C389A8B1310005A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +135,12 @@
 				187C61C521F589B100EB4BBD /* Info.plist */,
 				187C61C621F589B100EB4BBD /* main.m */,
 				187C61C821F589B100EB4BBD /* IPATool.entitlements */,
+				187C61EA21F5902800EB4BBD /* IPAFine.h */,
+				187C61EB21F5902800EB4BBD /* IPAFine.m */,
+				182699CF21F5C9F3008C2B1D /* HttpManager.h */,
+				182699CE21F5C9F3008C2B1D /* HttpManager.m */,
+				182699D421F6C5E1008C2B1D /* NSButton+QiEventInterval.h */,
+				182699D521F6C5E1008C2B1D /* NSButton+QiEventInterval.m */,
 			);
 			path = IPATool;
 			sourceTree = "<group>";
@@ -131,6 +163,29 @@
 			path = IPAToolUITests;
 			sourceTree = "<group>";
 		};
+		B58B03B0DA2151792D2DE235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0BF2369C1C6E3196ABBBDB2 /* Pods-IPATool.debug.xcconfig */,
+				23AB7D8D1AC14A06D91B03F0 /* Pods-IPATool.release.xcconfig */,
+				8836BE6BEDF8BEA2A5F084FC /* Pods-IPAToolTests.debug.xcconfig */,
+				3F7952CAC449776808952635 /* Pods-IPAToolTests.release.xcconfig */,
+				B45022F763DF128DC2ACC396 /* Pods-IPAToolUITests.debug.xcconfig */,
+				BA1ABC64C87826E4449950A1 /* Pods-IPAToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D03C34C46C389A8B1310005A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E2C8BE67F7BDDB6D42BFF7 /* libPods-IPATool.a */,
+				F22FA9EAC5B561D9FBCC852E /* libPods-IPAToolTests.a */,
+				D4A92D894AF7CC84BBB8976E /* libPods-IPAToolUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187C61E121F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPATool" */;
 			buildPhases = (
+				D229BCD87B9786D563E4C98E /* [CP] Check Pods Manifest.lock */,
 				187C61B321F589B000EB4BBD /* Sources */,
 				187C61B421F589B000EB4BBD /* Frameworks */,
 				187C61B521F589B000EB4BBD /* Resources */,
@@ -155,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187C61E421F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolTests" */;
 			buildPhases = (
+				C17240FF774A9A0BA7388910 /* [CP] Check Pods Manifest.lock */,
 				187C61C921F589B100EB4BBD /* Sources */,
 				187C61CA21F589B100EB4BBD /* Frameworks */,
 				187C61CB21F589B100EB4BBD /* Resources */,
@@ -173,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187C61E721F589B100EB4BBD /* Build configuration list for PBXNativeTarget "IPAToolUITests" */;
 			buildPhases = (
+				BD37CC6D0A5894B496A08659 /* [CP] Check Pods Manifest.lock */,
 				187C61D421F589B100EB4BBD /* Sources */,
 				187C61D521F589B100EB4BBD /* Frameworks */,
 				187C61D621F589B100EB4BBD /* Resources */,
@@ -198,6 +256,14 @@
 				TargetAttributes = {
 					187C61B621F589B000EB4BBD = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					187C61CC21F589B100EB4BBD = {
 						CreatedOnToolsVersion = 10.1;
@@ -255,11 +321,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD37CC6D0A5894B496A08659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPAToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17240FF774A9A0BA7388910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPAToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D229BCD87B9786D563E4C98E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPATool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		187C61B321F589B000EB4BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182699D021F5C9F3008C2B1D /* HttpManager.m in Sources */,
+				187C61EC21F5902800EB4BBD /* IPAFine.m in Sources */,
+				182699D621F6C5E1008C2B1D /* NSButton+QiEventInterval.m in Sources */,
 				187C61BF21F589B000EB4BBD /* ViewController.m in Sources */,
 				187C61C721F589B100EB4BBD /* main.m in Sources */,
 				187C61BC21F589B000EB4BBD /* AppDelegate.m in Sources */,
@@ -422,16 +560,24 @@
 		};
 		187C61E221F589B100EB4BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BF2369C1C6E3196ABBBDB2 /* Pods-IPATool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = IPATool/IPATool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U97K8M2954;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = IPATool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPATool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,16 +586,24 @@
 		};
 		187C61E321F589B100EB4BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AB7D8D1AC14A06D91B03F0 /* Pods-IPATool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = IPATool/IPATool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U97K8M2954;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = IPATool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.IPATool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +612,7 @@
 		};
 		187C61E521F589B100EB4BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8836BE6BEDF8BEA2A5F084FC /* Pods-IPAToolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +632,7 @@
 		};
 		187C61E621F589B100EB4BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7952CAC449776808952635 /* Pods-IPAToolTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +652,7 @@
 		};
 		187C61E821F589B100EB4BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45022F763DF128DC2ACC396 /* Pods-IPAToolUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -514,6 +671,7 @@
 		};
 		187C61E921F589B100EB4BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1ABC64C87826E4449950A1 /* Pods-IPAToolUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

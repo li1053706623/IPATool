@@ -11,6 +11,16 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface IPAFine : NSObject
+{
+    NSString *_error;
+    NSString *_appPath;
+}
+
+- (NSString *)doTask:(NSString *)path arguments:(NSArray *)arguments;
+
+- (NSString *)unzipIPA:(NSString *)ipaPath workPath:(NSString *)workPath;
+
+- (void)insertAndReplaceAndZipWithbundleIdentifer:(NSString *)bundleIdentifer WithobjectId:(NSString *)objectId WithClues:(NSString *)clues WithZip:(NSString *)result WithIPA:(NSString *)IPAPath WithAPPName:(NSString *)appName WithDylibName:(NSString *)dylib withFramework:(NSString *)framework;
 
 @end
 

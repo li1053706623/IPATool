@@ -7,14 +7,15 @@
 //
 
 #import "HttpManager.h"
-
+#import <AFNetworking.h>
 @implementation HttpManager
 + (void)getWithURLString:(NSString *)URLString parameters:(id)parameters success:(void (^)(NSDictionary * responseObject))success failure:(void (^)(NSError *))failure {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     // 可以接受的类型
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    manager.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:  ,nil];
-   
+     manager.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:@"application/json",@"text/json", @"text/plain", @"text/html",@"application/x-www-form-urlencoded",nil];
+ 
+    
     [manager GET:URLString parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
             NSDictionary * dictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];

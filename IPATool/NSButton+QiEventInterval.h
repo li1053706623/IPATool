@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSButton (QiEventInterval)
 
+@property (nonatomic, assign) NSTimeInterval qi_eventInterval;
+
 @end
 
 NS_ASSUME_NONNULL_END
